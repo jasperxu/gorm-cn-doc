@@ -1,0 +1,41 @@
+{
+    "title": "GORM 中文文档",
+    "description": "GORM 中文文档",
+    "author": "JasperXu",
+    "language": "zh-Hans",
+    "gitbook": "3.x.x",
+    "plugins": [
+        "fontsettings",
+        "highlight",
+        "livereload",
+        "-search",
+        "sharing",
+        
+        "anchors",
+        "anchor-navigation-ex",
+        "ba",
+        "splitter",
+        "tbfed-pagefooter"
+    ],
+    "pluginsConfig": {
+        "fontsettings": {
+            "theme": "night",
+            "family": "sans",
+            "size": 2
+        },
+        "sharing": {
+            "weibo": true
+        },
+        "anchor-navigation-ex":{
+            "isRewritePageTitle":false
+        },
+        "ba": {
+            "token": "181780a9962d5f58cb82c8ce32b1ff71"
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright &copy JasperXu 2017",
+            "modify_label": "修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        }
+    }
+}

@@ -16,7 +16,7 @@ if db.Model(&user).Related(&credit_card).RecordNotFound() {
     // 没有信用卡被发现处理...
 }
 ```
-## 事物 {#t}
+## 事务 {#t}
 要在事务中执行一组操作，一般流程如下。
 ```go
 // 开始事务
